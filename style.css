@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+html{
+    background-color: #fb6aa3;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.sidebar{
+   color: white;
+   font-size: 28px;
+   background-color: black;
+   /*width: 52vh;*/
+   font-family: 'Bebas Neue';
+   height: 100vh;
+   transition: transform 0.3s ease-in;
+}
+.sidebarGo{
+   width: 0px;
+}
+.sidebar nav{
+    padding: 38px;
+}
+.sidebar nav li{
+    padding: 25px 0px;
+    list-style: none;
+    font-size: 66px;
+}
+.sidebar nav li a {
+    color: white;
+    text-decoration: none;
+}
+.main{
+    background-color: #2e1a5a;
+    width: 100%;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    background-size: 100vw 100vh;
+}
+.infocontainer{
+    background-image: url(images/arcade_bg.png);
+    background-size:100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.auto-input{
+    font-family: 'Press Start 2P';
+    font-size: 40px;
+    line-height: 70px;
+    color: #fbd502;
+}
+.devinfo{
+    display: flex;
+    padding: 78px;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    font-size: 40px;
+    font-family: 'Press Start 2P';
+}
+.about{
+    margin-top: 20px;
+    font-size: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.buttons button{
+    padding: 17px;
+    border-radius: 23px;
+    border-color: blanchedalmond;
+    background-color: black;
+    color: blanchedalmond;
+    font-size: 30px;
+    margin: 0px 3px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    border-color: black;
+    background-color: blanchedalmond;
+    color: black;
+}
+.devpic img{
+    height: 60vh;
+    margin-top: 149px;
+    margin-right: 100px;
+    border: dashed;
+    border-color: blanchedalmond;
+    border-width: 5px;
+}
+.contactform{
+    background-image: url(images/arcade_bg.png);
+    display: flex;
+    padding: 70px;
+    flex-direction: column;
+    background-size:100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+#form-check{
+    padding:s 0px;
+    display: flex;
+    flex-direction: row;
+}
+#form-check input{
+    width: 21px;
+    height: 22px;
+    margin: 12px 8px 0px 0px;
+}
+.contactform form input {
+    padding: 5px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width: 22vw;
+    height: 2vw;
+    font-size: 26px;
+}
+#emailHelp{
+    font-size: 20px;
+    color: #ffffff;
+    padding: 12px 0px;
+}
+.form-label{
+    font-size: 30px;
+    color: #fb6aa3;
+}
+.form-check-label{
+    font-size: 20px;
+    color: #ffffff;
+    padding: 12px 0px;
+}
+.contactform form button {
+    padding: 12px 25px;
+    border-radius: 18px;
+    border-color: blanchedalmond;
+    background-color: black;
+    color: blanchedalmond;
+    font-size: 26px;
+    margin: 11px 1px;
+    cursor: pointer;
+}
+.contactform form button:hover{
+    border-color: black;
+    background-color: blanchedalmond;
+    color: black;
+}
+h1{
+    font-family: 'Press Start 2P';
+    font-size: 35px;
+    line-height: 70px;
+    color: #fbd502;
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    color: #fb6aa3;
+}
+.skillcontainer{
+    display: flex;
+    padding: 76px;
+    justify-content: center;
+    flex-direction: column;
+}
+.skillcontainer ul{
+    list-style: none;
+    font-size: 25px;
+    padding: 0px;
+    color: blanchedalmond;
+}
+
+.skill1 {
+    width: 457px;
+    height: 16px;
+    background-color: #5cc5e1;
+    margin: 11px 0px;
+}
+.skill{
+    width: 280px;
+    height: 16px;
+    background-color: #f985b9;
+    margin: 11px 0px;
+}
+.cross{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.ham{
+    position: absolute;
+    cursor: pointer;
+}
+.service{
+    padding: 23px;
+}
+.service h1{
+    padding: 53px 10px;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card{
+    padding: 10px 10px;
+    width: 19%;
+    border-radius: 6px;
+    background: blanchedalmond;
+    text-align: center;
+    border: 1px;
+    font-size: 28px;
+    margin: 31px 7px;
+}
+.card:hover{
+    background: black;
+    color: blanchedalmond;
+}
+.box{
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative;
+}
+.box:hover {
+    transform: rotateY(180deg);
+}
+/* .box .is-flipped {
+    transform: rotateY(180deg);
+} */
+.card_back{
+  background-color: var(--light);
+  transform: rotateY(180deg);
+}
+.card_face{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+.card_face p{
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.flip_img img{
+    margin-top: 50px;
+    width: 50%;
+}
+
+h2{
+    font-family: 'Press Start 2P';
+    font-size: 20px;
+    line-height: 70px;
+    color: #f985b9;
+}
+
+h4{
+    font-family: 'Press Start 2P';
+    font-size: 15px;
+    color: white;
+
+}
